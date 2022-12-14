@@ -1,4 +1,4 @@
-# Fallbeispiel: FRITZ!Box 7590 AX
+# Fallbeispiel: Einrichtung eines Steuerberaterbüros
 
 ![Kapitelbild](https://herr-nm.github.io/MMBbS_KSM_LF13/bilder/fb_kapitelbild.png)
 
@@ -53,14 +53,14 @@ Sie finden die das Handbuch auf der [Herstellerseite](https://assets.avm.de/file
 
 Der Kunde hat mit Ihrem Kollegen zusammen einen Fragenkatalog zur FRITZ!Box 7590 AX entwickelt, um einige Informationen über den Router zu erhalten. Prüfen Sie anhand Ihrer Mindmap aus dem vorherigen Arbeitsauftrag, ob Sie diese beantworten können. Sollten noch Lücken in dem vorherigen Ergebnis bestehen, vervollständigen Sie die Aspekte:
 
-- Wie können die zwei Niederlassungen sicher miteinander verbunden werden?
-- Wäre es möglich eine DMZ (Demilitarisierte Zone) einzurichten, um Webdienste wie eine Nextcloud aus den eigenen Räumlichkeiten anzubieten?
-- Welche Optionen bestehen, um Kunden direkt über die FRITZ!Box 7590 AX, aber auch über einen weiteren Access Point mit einem Gast-WLAN zu versorgen?
-- Inwiefern unterstützt der Router VLAN?
-- Welche Fallback-Option besteht, wenn die Glasfaser ausfallen sollte und dennoch eine Internetverbindung benötigt wird?
-- Wie kann der Mitarbeiter von daheim im Homeoffice sicher auf die Daten im Büro zugreifen?
-- Welche Möglichkeiten werden für die Anbindung der Telefone angeboten?
-- Welche Apps zum Router gibt es auf dem Markt?
+1. Wie können die zwei Niederlassungen sicher miteinander verbunden werden?
+2. Wie wäre es möglich eine DMZ (Demilitarisierte Zone) einzurichten, um Webdienste wie eine Nextcloud aus den eigenen Räumlichkeiten anzubieten?
+3. Welche Optionen bestehen, um Kunden direkt über die FRITZ!Box 7590 AX, aber auch über einen weiteren Access Point mit einem Gast-WLAN zu versorgen?
+4. Inwiefern unterstützt der Router VLAN?
+5. Welche Fallback-Option besteht, wenn die Glasfaser ausfallen sollte und dennoch eine Internetverbindung benötigt wird?
+6. Wie kann der Mitarbeiter von daheim im Homeoffice sicher auf die Daten im Büro zugreifen?
+7. Welche Möglichkeiten werden für die Anbindung der Telefone angeboten?
+8. Welche Apps zum Router gibt es auf dem Markt?
 
 ---
 
