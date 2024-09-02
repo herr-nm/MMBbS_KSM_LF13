@@ -35,6 +35,9 @@ Nach fertiger Einrichtung der Hardware prüfen Sie folgende Rahmenbedingungen:
 - IP-Adresse, Netzadresse, Subnetzmaske & Gateway des Gastnetzes via WLAN
 - Konfigurieren Sie einen weiteren Client manuell (also ohne DHCP) so, dass dieser am Gastnetz teilnehmen kann.
 
+### M|3.0: Konfiguration der Fritz!Box-Modelle //TODO
+
+
 ### A|3.2: Einrichtung des Switches NetGear GS308e inkl. VLAN
 
 Um VLAN in dem Aufbau nutzen zu können, wird der VLAN-fähige Switch NetGear GS308e eingerichtet. Dazu gehen Sie wie folgt vor:
@@ -44,9 +47,25 @@ Um VLAN in dem Aufbau nutzen zu können, wird der VLAN-fähige Switch NetGear GS
 3. Richten Sie die benötigten VLANs ein. Für das WLAN wird ein Trunk-Port benötigt, von den zwei Fritz!Box Modellen kommend sollen ferner die Netze "künstliche DMZ", "internes Netz" sowie "Gastnetz" portbasiert ins VLAN aufgenommen werden.
 4. Es sollten zur Prüfung, ob der Switch wie gewünscht arbeitet, je VLAN zwei Ports mit dem jeweiligen VLAN belegt werden. Am Ende bleiben zwei Ports als Trunk.
 
+### M|3.1: Konfiguration des NetGear GS308e Switches
+
+//TODO
+
+### M|3.2: Manual zum NetGear GS308e Switch
+
+https://www.downloads.netgear.com/files/GDC/GS105EV2/WebManagedSwitches_UM_EN.pdf
+
 ### A|3.3: Einrichtung des MikroTik Access Point
 
 //TODO
+
+### M|3.3: Konfiguration des MikroTik hap Lite Access Point
+
+//TODO
+
+### M|3.4: Manual zum MikroTik hap Lite Access Point
+
+https://help.mikrotik.com/docs/display/UM/hAP+lite
 
 {%
    include-markdown "inhalte/lizenzhinweis.md"
