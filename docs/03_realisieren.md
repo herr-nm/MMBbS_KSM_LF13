@@ -67,6 +67,85 @@ https://www.downloads.netgear.com/files/GDC/GS105EV2/WebManagedSwitches_UM_EN.pd
 
 https://help.mikrotik.com/docs/display/UM/hAP+lite
 
+## Kompetenz 3.1: Kontrolle der Netzwerkbereiche
+
+Nach der Realisierung des Netzwerks unter Verwendung  der Komponenten des Kunden im Labor soll systematisch geprüft werden, ob die Netzwerkbereiche korrekt eingerichtet sind.
+
+### Arbeitsauftrag A|3.3: Kontrolle der IP-Adressbereiche
+
+1. Notieren Sie sich die IP-Adressen der aktiven Netzwerkkomponenten (Fritz!Boxen, Switches, Access Points).
+2. Prüfen Sie systematisch, an welchen Ports welches Netz anliegt. Verbinden Sie sich dafür mit einem Endgerät am jeweiligen Port per Ethernet-Kabel. Führen Sie dann die Adressanalyse durch.
+3. Prüfen Sie anschließend, an welchem Netz Sie teilnehmen, wenn Sie sich mit den verschiedenen SSID, die Sie eingerichtet haben, verbinden.
+4. Protokollieren Sie die Ergebnisse in einem übersichtlichen Schaubild. Sie können hierfür einen einfachen logischen Netzwerkplan nutzen.
+
+### Informationsmaterial M|3.5: Konsolenbefehle für die IP-Adress-Analyse
+
+#### Windows
+1. **IP-Adresse anzeigen:**
+   ```bash
+   ipconfig
+   ```
+   Zeigt die aktuelle IP-Adresse, Subnetzmaske und das Standardgateway für alle Netzwerkschnittstellen.
+
+2. **Detaillierte IP-Konfigurationsinformationen:**
+   ```bash
+   ipconfig /all
+   ```
+   Zeigt alle IP-Konfigurationsdetails, einschließlich der MAC-Adresse und DNS-Server.
+
+3. **Netzwerkverbindung testen (Ping):**
+   ```bash
+   ping <Ziel-IP-Adresse>
+   ```
+   Sendet ICMP-Echoanforderungen an eine Ziel-IP-Adresse, um die Erreichbarkeit zu testen.
+
+4. **Routing-Tabellen anzeigen:**
+   ```bash
+   route print
+   ```
+   Zeigt die Routing-Tabelle des Systems an.
+
+5. **Aktive Netzwerkverbindungen anzeigen:**
+   ```bash
+   netstat -an
+   ```
+   Zeigt alle aktiven Netzwerkverbindungen und Ports an.
+
+#### Linux
+1. **IP-Adresse anzeigen:**
+   ```bash
+   ip addr show
+   ```
+   Zeigt die IP-Adresse, Subnetzmaske und andere Details für alle Netzwerkschnittstellen.
+
+2. **Detaillierte IP-Konfigurationsinformationen:**
+   ```bash
+   ifconfig
+   ```
+   Zeigt die Netzwerkdetails für jede Netzwerkschnittstelle an (älteres Tool, manchmal nicht mehr vorinstalliert).
+
+3. **Netzwerkverbindung testen (Ping):**
+   ```bash
+   ping <Ziel-IP-Adresse>
+   ```
+   Sendet ICMP-Echoanforderungen an eine Ziel-IP-Adresse, um die Erreichbarkeit zu testen.
+
+4. **Routing-Tabellen anzeigen:**
+   ```bash
+   ip route
+   ```
+   Zeigt die Routing-Tabelle des Systems an.
+
+5. **Aktive Netzwerkverbindungen anzeigen:**
+   ```bash
+   netstat -an
+   ```
+   Oder mit `ss` (modernes Tool):
+   ```bash
+   ss -tuln
+   ```
+   Zeigt alle aktiven Netzwerkverbindungen und Ports an.
+
 {%
    include-markdown "inhalte/lizenzhinweis.md"
    start="<!--include-start-->"

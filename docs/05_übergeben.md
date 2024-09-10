@@ -26,7 +26,7 @@ Die Dokumentation für das Projekt soll fertiggestellt werden. Dabei sind einige
 
 ### Informationsmaterial M|5.0: Unfertige Dokumentation
 
-//TODO
+[Download Projektdoku (unfertig)](material/ChangeIT_Projektdoku_KSM_LF13.docx)
 
 ### Informationsmaterial M|5.1: Logischer Netzwerkplan
 

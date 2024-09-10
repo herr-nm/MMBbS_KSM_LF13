@@ -14,7 +14,7 @@ Der Einbau der wichtigsten Komponenten beim Kunden ist durch die ChangeIT GmbH e
 
 Einige Kabel verlassen die Gebäudehülle bzw. einige Netzwerkdosen werden im Wartebereich des Steuerberaters genutzt. Diese sind bisher für Angriffe quasi ungeschützt, da die Verbindungen direkt in die entsprechenden Netze führen. 
 
-## Kompetenz 4.0: Erweiterung der Sicherheit um Network Access Control
+## Kompetenz 4.0: Erweiterung der Sicherheit um Network Access Control prüfen
 
 Im Gespräch mit dem Kunden nach der Ersteinrichtung der Komponenten sollen die konkreten Anforderungen hinsichtlich der Sicherheit im Konzept ergänzt werden:
 
@@ -125,6 +125,22 @@ Darüber hinaus wird die Integration von NAC in Cloud-Umgebungen eine wichtige R
 Network Access Control ist ein wesentliches Element moderner IT-Sicherheit. Es ermöglicht es Organisationen, den Zugang zu ihren Netzwerken streng zu kontrollieren und potenzielle Bedrohungen zu minimieren. MAC-Filter sind eine einfache, aber wirksame Methode, um den Netzwerkzugriff zu steuern, insbesondere in kleineren Netzwerken. In größeren und komplexeren Umgebungen sollten sie jedoch als Teil einer umfassenderen NAC-Strategie eingesetzt werden, die fortschrittlichere Technologien wie 802.1X, VLANs und Firewalls umfasst.
 
 Die Zukunft von NAC wird von der Notwendigkeit bestimmt, mit der rasanten Entwicklung der Netzwerktechnologien Schritt zu halten und gleichzeitig die wachsenden Bedrohungen durch Cyberangriffe abzuwehren. Unternehmen, die in ihre NAC-Systeme investieren und sie kontinuierlich aktualisieren, werden besser in der Lage sein, ihre Netzwerke zu schützen und die Integrität ihrer Daten zu gewährleisten.
+
+## Kompetenz 4.1: MAC-Filter auf Netzwerkports einrichten
+
+Die Analyse der Network Access Control hat verschiedene Ansätze aufgezeigt, die ein Eindringen in das Kundennetzwerk erschweren oder aufdecken sollen. Nach Rücksprache mit dem Kunden soll vorerst auf den MAC-Filter in Bereichen, die unbeobachteten Zugang zu Netzwerkdosen sowie bei Kabeln, die die Gebäudehülle verlassen, zurückgegriffen werden.
+
+### A|3.2: Einrichtung des Switches NetGear GS108Tv3 inkl. MAC-Filter
+
+//TODO
+
+### M|3.6: Konfiguration des NetGear GS108Tv3 Switches
+
+//TODO
+
+### M|3.7: Manual zum NetGear GS108Tv3 Switch
+
+//TODO
 
 {%
    include-markdown "inhalte/lizenzhinweis.md"
